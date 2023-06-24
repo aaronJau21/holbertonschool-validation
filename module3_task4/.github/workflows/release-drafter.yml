@@ -6,9 +6,9 @@ on:
       - master
     tags:
       - "v*.*.*"
-    release:
+  release:
+    types:
       - created
-   
 jobs:
   update_release_draft:
     runs-on: ubuntu-22.04
